@@ -1,0 +1,35 @@
+[gd_resource type="Theme" load_steps=5 format=3 uid="uid://d3xicm2is0yjk"]
+
+[sub_resource type="SystemFont" id="SystemFont_uyymd"]
+font_names = PackedStringArray("Fira Sans")
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_a2u32"]
+content_margin_left = 8.0
+content_margin_top = 8.0
+content_margin_right = 8.0
+content_margin_bottom = 8.0
+bg_color = Color(0.203922, 0.203922, 0.203922, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_01yor"]
+content_margin_left = 8.0
+content_margin_top = 8.0
+content_margin_right = 8.0
+content_margin_bottom = 8.0
+bg_color = Color(0.203922, 0.203922, 0.203922, 1)
+corner_radius_top_left = 4
+corner_radius_top_right = 4
+corner_radius_bottom_right = 4
+corner_radius_bottom_left = 4
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_rjm81"]
+
+[resource]
+Button/font_sizes/font_size = 20
+Button/fonts/font = SubResource("SystemFont_uyymd")
+Button/styles/focus = SubResource("StyleBoxFlat_a2u32")
+Button/styles/normal = SubResource("StyleBoxFlat_01yor")
+PanelContainer/styles/normal = SubResource("StyleBoxFlat_rjm81")
